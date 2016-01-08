@@ -23,7 +23,7 @@ class MealTableViewController: UITableViewController {
         // Load sample data.
         loadSampleMeals()
         
-        // Load any saved meals - otherwise, load, sample data.
+        /*// Load any saved meals - otherwise, load, sample data.
         if let savedMeals = loadMeals() {
             meals += savedMeals
         }
@@ -32,7 +32,7 @@ class MealTableViewController: UITableViewController {
             // Load sample data.
             loadSampleMeals()
         }
-        
+        */
     }
     
     func loadSampleMeals() {
@@ -157,6 +157,8 @@ class MealTableViewController: UITableViewController {
                 meals.append(meal)
                 tableView.insertRowsAtIndexPaths([newIndexPath], withRowAnimation: .Bottom)
             }
+            
+            // Saves meals.
             saveMeals()
         }
     }

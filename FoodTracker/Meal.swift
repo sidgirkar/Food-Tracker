@@ -15,11 +15,6 @@ class Meal: NSObject, NSCoding {
     var photo: UIImage?
     var rating: Int
     
-    // MARK: Archiving Paths
-    
-    static let DocumentsDirectory = NSFileManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask).first!
-    static let ArchiveURL = DocumentsDirectory.URLByAppendingPathComponent("meals")
-    
     // MARK: Types
     
     struct PropertyKey {
@@ -28,6 +23,13 @@ class Meal: NSObject, NSCoding {
         static let ratingKey = "rating"
         
     }
+
+    
+    // MARK: Archiving Paths
+    
+    static let DocumentsDirectory = NSFileManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask).first!
+    static let ArchiveURL = DocumentsDirectory.URLByAppendingPathComponent("meals")
+    
     
     // MARK: Initialization
     
