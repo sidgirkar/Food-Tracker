@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D8A9F181C3EF4DA005A2FFF /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8A9F171C3EF4DA005A2FFF /* Meal.swift */; };
+		2D8A9F191C3EF4DA005A2FFF /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8A9F171C3EF4DA005A2FFF /* Meal.swift */; };
+		2DBC43FF1C3E61360099C956 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBC43FE1C3E61360099C956 /* RatingControl.swift */; };
+		2DC605171C3EFAA400F4FC4A /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC605161C3EFAA400F4FC4A /* MealTableViewCell.swift */; };
+		2DC605191C3F006700F4FC4A /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC605181C3F006700F4FC4A /* MealTableViewController.swift */; };
 		2DD4D12B1C3DFFA9006B6F38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD4D12A1C3DFFA9006B6F38 /* AppDelegate.swift */; };
-		2DD4D12D1C3DFFA9006B6F38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD4D12C1C3DFFA9006B6F38 /* ViewController.swift */; };
+		2DD4D12D1C3DFFA9006B6F38 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD4D12C1C3DFFA9006B6F38 /* MealViewController.swift */; };
 		2DD4D1301C3DFFA9006B6F38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD4D12E1C3DFFA9006B6F38 /* Main.storyboard */; };
 		2DD4D1321C3DFFA9006B6F38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DD4D1311C3DFFA9006B6F38 /* Assets.xcassets */; };
 		2DD4D1351C3DFFA9006B6F38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD4D1331C3DFFA9006B6F38 /* LaunchScreen.storyboard */; };
@@ -26,9 +31,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D8A9F171C3EF4DA005A2FFF /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		2DBC43FE1C3E61360099C956 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		2DC605161C3EFAA400F4FC4A /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
+		2DC605181C3F006700F4FC4A /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 		2DD4D1271C3DFFA9006B6F38 /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD4D12A1C3DFFA9006B6F38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2DD4D12C1C3DFFA9006B6F38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2DD4D12C1C3DFFA9006B6F38 /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
 		2DD4D12F1C3DFFA9006B6F38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2DD4D1311C3DFFA9006B6F38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DD4D1341C3DFFA9006B6F38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,6 +68,8 @@
 		2DD4D11E1C3DFFA9006B6F38 = {
 			isa = PBXGroup;
 			children = (
+				2DC605161C3EFAA400F4FC4A /* MealTableViewCell.swift */,
+				2DC605181C3F006700F4FC4A /* MealTableViewController.swift */,
 				2DD4D1291C3DFFA9006B6F38 /* FoodTracker */,
 				2DD4D13E1C3DFFA9006B6F38 /* FoodTrackerTests */,
 				2DD4D1281C3DFFA9006B6F38 /* Products */,
@@ -78,8 +89,10 @@
 			isa = PBXGroup;
 			children = (
 				2DD4D12A1C3DFFA9006B6F38 /* AppDelegate.swift */,
-				2DD4D12C1C3DFFA9006B6F38 /* ViewController.swift */,
+				2DD4D12C1C3DFFA9006B6F38 /* MealViewController.swift */,
 				2DD4D12E1C3DFFA9006B6F38 /* Main.storyboard */,
+				2DBC43FE1C3E61360099C956 /* RatingControl.swift */,
+				2D8A9F171C3EF4DA005A2FFF /* Meal.swift */,
 				2DD4D1311C3DFFA9006B6F38 /* Assets.xcassets */,
 				2DD4D1331C3DFFA9006B6F38 /* LaunchScreen.storyboard */,
 				2DD4D1361C3DFFA9006B6F38 /* Info.plist */,
@@ -197,8 +210,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DD4D12D1C3DFFA9006B6F38 /* ViewController.swift in Sources */,
+				2D8A9F181C3EF4DA005A2FFF /* Meal.swift in Sources */,
+				2DD4D12D1C3DFFA9006B6F38 /* MealViewController.swift in Sources */,
+				2DBC43FF1C3E61360099C956 /* RatingControl.swift in Sources */,
 				2DD4D12B1C3DFFA9006B6F38 /* AppDelegate.swift in Sources */,
+				2DC605191C3F006700F4FC4A /* MealTableViewController.swift in Sources */,
+				2DC605171C3EFAA400F4FC4A /* MealTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D8A9F191C3EF4DA005A2FFF /* Meal.swift in Sources */,
 				2DD4D1401C3DFFA9006B6F38 /* FoodTrackerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,6 +406,7 @@
 				2DD4D1461C3DFFAA006B6F38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DD4D1471C3DFFAA006B6F38 /* Build configuration list for PBXNativeTarget "FoodTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +415,7 @@
 				2DD4D1491C3DFFAA006B6F38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
